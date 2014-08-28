@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="main.css"> 
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="app.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Viga|Josefin+Slab|Nunito:300|Varela|Amatic+SC' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class = "header-text">
+	<p>THE A-LIST</p> 
+<div class = "description">
+  	<p> How Well Do You Know Your Pet Cyberstars?</p>
+	</div>
+</div>
+<div class = "main"> 
+
+<!-- Intro PAGE -->
+<div id="getStarted">
+			<h3 id="intro">How much do you know about famous pets?<br>Take the quiz &amp; find out</h3>
+			<input type="submit" value="Get Started" class="button" id="start" onkeydown="if(event.keyCode==13)$(&#39;#start&#39;).trigger(&#39;click&#39;);">
+</div>	
+
+
+<div id = "makeyourguess"> <!-- White Horizontal bar that says "Make Your Guess!" -->
+			<p>Make Your Guess!</p>
+</div>	
+ 
+<!--Answers for a selection of pets name starts here - there are FIVE sets of answers, each with THREE choices--> 
+
+
+<div id="question_wrapper"> 
+	<span class ="question"> Question #1</span><br>
+	<div id = "answer_holder">
+		<input type="radio" name="option" class= "option" value="0"><span class="answer">Ans1</span><br>
+		<input type="radio" name="option" class= "option" value="1"><span class="answer">Ans2</span><br>
+		<input type="radio" name="option" class= "option" value="2"><span class="answer">Ans3</span><br>
+		<input type="radio" name="option" class= "option" value="3"><span class="answer">Ans4</span><br>
+	</div>
+	
+<!--Submit Button-->
+
+<div id="bottom">
+	<div class ="submitButton">
+			<input type="submit" value="Submit My Answer!" class="submit"</p>	
+	</div>		
+
+	<div id="fact_holder"> 
+		<span id = "last_question_fact"></span>
+	</div>	
+</div>
+
+<!--Pop up to inform CORRECT or INCORRECT to user-->
+
+<div class="answerPopUp" id="correct">	
+		<h1>Correct!</h1>
+		<h2>You got it right!</h2>
+		<input type="submit" value="Continue" class="continue">
+</div>
+	
+<div class="answerPopUp" id="incorrect">
+		<h1>Sorry</h1>
+		<h2>Wrong Answer</h2>
+		<input type="submit" value="Continue" class="continue">
+</div>
+
+
+
+<!--Wrap up code above this line.-->	
+</div>	
+
+</body>
+</html>

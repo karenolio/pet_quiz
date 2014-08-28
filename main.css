@@ -1,0 +1,355 @@
+/*THINGS I newly added in*/
+
+.question { /*NOT SURE I NEED*/
+  font-family:'Nunito', sans-serif; 
+  color: black;
+}
+
+#answer_holder {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 20px;
+  line-height: 35px;
+}
+
+#retry_button{
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: none;
+}
+
+#final {
+  font-size: 30px;
+  line-spacing: 35px;
+}
+
+#button_holder { /*NOT SURE I NEED B/C I HAVE BUTTON STUFF BELOW*/
+  margin-left: 50px;
+}
+
+
+#question_wrapper {
+  background-color: #7B5A6D;
+  margin-top: 50px;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  font-family:'Nunito', sans-serif;
+  border-style: none;
+  min-width: 25%;
+  float: center;
+}
+
+/*END END END*/
+
+
+.answer { /*answer choices - has the pet's name*/
+  font-family:'Nunito', sans-serif;
+  color: #ffffff;
+  opacity: 100%;
+  margin-top: 0px;
+  /*padding-left: 40px;*/
+  padding-top: 30px;
+  padding-bottom: 3px;
+  font-size: 24px;
+  /*background: #606060;*/
+  text-align: center;
+  border-color: white; /*NOT WORKING?*/
+  border-width: 2px;
+}
+
+.answer:hover{
+  background-color: #CEDFCB;
+}
+
+.submitButton { /* NEW note: leaving in for now; OLD: NOT SURE IF THIS DOES ANYTHING SO I RMVD*/
+  font-family:'Nunito', sans-serif;
+  color: red;
+  opacity: 100%;
+  margin-top: 50px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 34px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.submit { /*actual SUBMIT text, but also controls border, here there's no border at all*/
+  font-family:'Nunito', sans-serif;
+  color: #7B5A6D;
+  opacity: 100%;
+  margin-top: 0px;
+  /*padding-left: 40px;*/
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  font-size: 34px;
+  background: #ffffff;
+  text-align: center;
+  border-color: #ffffff;
+  border-style: none;
+}
+
+.submit:hover {
+  color: #ffffff;
+  background: #C6D21C;
+}
+
+
+#bottom {
+  text-align: center;
+  whites-space:nowrap;
+}
+
+#fact_holder {
+  display: inline-block;
+  font-family: 'CoffeeHouse';
+  font-size: 30px;
+  text-align:center;
+  color: #360000;
+  width: 450px;
+  vertical-align:top;
+  margin-left: 30px;
+  margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+/*Intro PAGE*/
+#getStarted {
+  position: relative;
+  float: center;
+  width: 95%;
+  margin: 150px 0px 20px 25px;
+  min-width: 500px;
+  color: black;
+}
+
+#intro{
+  /*text-transform: none;
+  color: #028F76;*/
+  color: grey;
+  font-size: 25px;
+  text-align: center;
+  line-height: 1.5;
+  float: center;
+  font-family:'Nunito', sans-serif;
+  margin-top: 50px;
+}
+
+.button {
+  background-color: #7B5A6D;
+  margin-top: 50px;
+  margin-left: 25%;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family:'Nunito', sans-serif;
+  border-style: none;
+  min-width: 50%;
+}
+
+#start{
+
+}
+
+#start:hover {
+  background-color: #028F76;
+}
+
+#start:active {
+  background-color: #028F76;
+}
+
+/* REST OF THE CODE HERE*/
+
+.gif {
+  display:none;
+}
+
+.box{ /*this box holds the gif*/
+  margin-top: 40px;
+  /*margin-left: 100px;*/
+  margin-left:0px; /*this makes the gif image stick to the left of the page*/
+  opacity: 0;
+}
+
+.box h1 { /*mine are pictures but in case picture doesn't load*/
+  font-size: 24px;
+  color: black;
+  /*opacity: 1;*/
+  text-align: center;  
+}
+
+
+html {
+    height: 100%;
+}
+
+/** { 
+  outline: 1px solid black;
+}
+*/
+body { /*this is the blue gradient background*/
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: #ffffff;
+  background: -webkit-linear-gradient(#ffffff, #ffffff);
+  background:    -moz-linear-gradient(#ffffff, #ffffff);
+  background:         linear-gradient(#ffffff, #ffffff);
+}
+
+.header-text { /*The A-List*/
+  font-family:'Nunito', sans-serif;
+  /*font-style: italic;*/
+  font-weight: bold;
+  color: #3E4147;
+  /*padding-left: 40px;*/
+  padding-top: 5px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.description{ /*How well do you know your pet cyberstars?*/
+  font-family: 'Amatic SC', cursive;
+  /*font-style: italic;*/
+  color: #34BEDA;
+  opacity: 100%;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 35px;
+  text-align: center;
+}
+
+
+#makeyourguess { /*Make Your Guess! background and the actual word "Make Your Guess!"*/
+  font-family: 'Amatic SC', cursive;
+  color: #3E4147;
+  opacity: 80%;
+  /*padding-right: 21%;*/
+  padding-top: 6px;
+  /*padding-left: 40px;*/
+  padding-bottom: 6px;
+  font-size: 50px;
+  margin-top: -4px; /*had to do this so there's no white space between GIF and "Make Your Guess!"" horizontal bar*/
+  background: #ffffff;
+  text-align: center;
+}
+
+/*.answers { 
+  font-family:'Nunito', sans-serif;
+  color: #ffffff;
+  opacity: 100%;
+  margin-top: 0px;
+  
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 24px;
+  background: #606060;
+  text-align: center;
+  border-color: white; 
+  border-width: 2px;
+
+}*/
+
+
+.answerPopUp {
+  background-color: #7B5A6D;
+  width: 70%;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  color: #ffffff;
+  display:none;
+  top: 50px;
+  height: 250px; 
+  border-radius: 15px;
+  text-align: justify;
+  padding: 100px; 
+  opacity: .90;
+  font-family:'Nunito', sans-serif;
+}
+
+.continue { /*This is the actual CONTINUE button on the pop up screen*/
+  font-family:'Nunito', sans-serif;
+  color: #7B5A6D;
+  opacity: 100%;
+  margin-top: 0px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: 100%;
+  font-size: 34px;
+  background: #ffffff;
+  text-align: center;
+  border-color: #ffffff;
+  border-style: none;
+  padding: 15px 50px 15px 45px;
+  float: center;
+  margin-top: 50px;
+  margin-left: 0px;
+  border: none;
+  width: 200px;
+}
+
+#correct {
+  display: inline-block;
+  display: none;
+}
+
+#incorrect {
+  display: inline-block;
+  display: none;
+}
+
+
+.main { /* this is the horizontal block of white - CONSIDER MAKING THE HEIGHT SMALLER BECAUSE I WANT TO SEE BLUE BOTTOM*/ 
+  /*background-color: white;*/
+  margin-top: 50px;
+  padding-bottom: 0px;
+}
+
+
+.unAnswered {
+  background-color: black;
+}
+
+.currentQuestion{
+  background-color: blue;
+}
+
+.rightAnswer {
+  background-color: green;
+}
+
+.wrongAnswer {
+  background-color: orange; 
+}
+
+.selecedAnswer {
+  background-color: green;
+}
+
+/*body {
+	background-color: #10d897;
+}*/
+
+/*OLD CODE HERE OLD CODE HERE OLD CODE HERE OLD CODE HERE OLD CODE HERE OLD CODE HERE OLD CODE*/
+
