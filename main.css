@@ -48,7 +48,7 @@
 /*END END END*/
 
 
-.answer { /*answer choices - has the pet's name*/
+.answers { /*answer choices - has the pet's name*/
   font-family:'Nunito', sans-serif;
   color: #ffffff;
   opacity: 100%;
@@ -105,25 +105,6 @@
   text-align: center;
   whites-space:nowrap;
 }
-
-#fact_holder {
-  display: inline-block;
-  font-family: 'CoffeeHouse';
-  font-size: 30px;
-  text-align:center;
-  color: #360000;
-  width: 450px;
-  vertical-align:top;
-  margin-left: 30px;
-  margin-top: 70px;
-}
-
-
-
-
-
-
-
 
 
 /*Intro PAGE*/
@@ -205,7 +186,7 @@ html {
   outline: 1px solid black;
 }
 */
-body { /*this is the blue gradient background*/
+body { /*this is the white background*/
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -238,7 +219,6 @@ body { /*this is the blue gradient background*/
   text-align: center;
 }
 
-
 #makeyourguess { /*Make Your Guess! background and the actual word "Make Your Guess!"*/
   font-family: 'Amatic SC', cursive;
   color: #3E4147;
@@ -252,22 +232,6 @@ body { /*this is the blue gradient background*/
   background: #ffffff;
   text-align: center;
 }
-
-/*.answers { 
-  font-family:'Nunito', sans-serif;
-  color: #ffffff;
-  opacity: 100%;
-  margin-top: 0px;
-  
-  padding-top: 3px;
-  padding-bottom: 3px;
-  font-size: 24px;
-  background: #606060;
-  text-align: center;
-  border-color: white; 
-  border-width: 2px;
-
-}*/
 
 
 .answerPopUp {
